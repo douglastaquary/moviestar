@@ -1,0 +1,19 @@
+language: objective-c
+osx_image: xcode8.3
+
+cache:
+- bundler
+- cocoapods
+
+before_install:
+- bundle install
+- bundle exec pod keys set MovieStarAPIClientID  $MovieStarAPIClientID Moviestar
+- bundle exec pod keys set MovieStarAPIClientSecret $MovieStarAPIClientSecret Moviestar
+- pod repo update
+
+script:
+- bundle exec danger
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+

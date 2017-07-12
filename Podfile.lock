@@ -1,0 +1,53 @@
+PODS:
+  - Action (3.1.1):
+    - RxCocoa (~> 3.4)
+    - RxSwift (~> 3.4)
+  - Alamofire (4.5.0)
+  - Keys (1.0.0)
+  - Kingfisher (3.10.3)
+  - Marshal (1.2.4)
+  - Moya/Core (8.0.5):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (8.0.5):
+    - Moya/Core
+    - RxSwift (~> 3.0)
+  - NSObject+Rx (2.3.0):
+    - RxSwift (~> 3.0)
+  - Result (3.2.3)
+  - RxCocoa (3.5.0):
+    - RxSwift (~> 3.4)
+  - RxSwift (3.5.0)
+  - SwiftGen (4.2.1)
+
+DEPENDENCIES:
+  - Action
+  - Keys (from `Pods/CocoaPodsKeys`)
+  - Kingfisher
+  - Marshal
+  - Moya/RxSwift
+  - NSObject+Rx
+  - RxCocoa
+  - RxSwift
+  - SwiftGen
+
+EXTERNAL SOURCES:
+  Keys:
+    :path: Pods/CocoaPodsKeys
+
+SPEC CHECKSUMS:
+  Action: e224bd151fe2e057f4189b4a9df0dc5d21264a9e
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  Keys: 9c35bf00f612ee1d48556f4a4b9b4551e224e90f
+  Kingfisher: a0ac82dc5bcf0388dd74b294cf2cc13730c63436
+  Marshal: 8e04e6624e506921db7143b0bfd83caee03f32d6
+  Moya: c37eec09a098ba9991b5a963b291fc5704bdb9ef
+  NSObject+Rx: 38170f84b948152c05c57260cb853e387a5519d1
+  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+  RxCocoa: a0a09f45d0e5b48ecb6a4a7b4b4c89c88d3f633f
+  RxSwift: 18ee9d78b45edb3b0b7e79916b47a116e6dbc842
+  SwiftGen: 2ba2a88fc6130b96e38e2baa0029e4bd222ffd85
+
+PODFILE CHECKSUM: bd46e0e59a6c1863783c6e60085242ef2b0b534c
+
+COCOAPODS: 1.2.1
